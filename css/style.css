@@ -14,6 +14,7 @@ body {
     --gray-blue: #1A2852;
     --white: #ECF0F1;
     --gray-white: #B3B6B7;
+    --black:#1c2833d0;
 }
 /* banner-image start */
 .main{
@@ -118,8 +119,44 @@ ul li a:hover {
    
 }
 
-.event-text{
-    box-shadow: 0px 0px 5px 1px #000000;
+.events_se .single-event{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/df.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    transition: all .5s linear;
+    color: var(--white);
+}
+
+
+.events_se .single-event::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.events_se .single-event::after{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--gray-blue);
+    transform: translate(50% -50%);
+    opacity: 0;
 }
 
 /* Event section end*/
