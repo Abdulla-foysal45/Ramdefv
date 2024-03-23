@@ -5,6 +5,10 @@ body {
     font-family: "Anta", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 .container {
     padding:10px  5%;
@@ -173,6 +177,23 @@ ul li a:hover {
 .events_se .single-event:hover{
     opacity: 1;
     transform: scale(1.1);
+}
+
+ .single-event .btn-m{
+    text-align: center;
+    border: none;
+    margin: 10px 20px;
+    border-radius: 0px 10px 0px  10px;
+    background-color:rgba(255, 255, 255, 0.411);
+    transition: all .5s ease-in-out;
+    
+}
+
+.single-event .btn-m:hover{
+    border-radius: 10px 0px 10px  0px;
+    background-color: var(--black);
+    color: #10a5f5;
+    cursor:pointer;
 }
 
 /* Event section end*/
