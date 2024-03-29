@@ -197,3 +197,33 @@ ul li a:hover {
 }
 
 /* Event section end*/
+
+
+/* attraction start */
+
+.att .single-att{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.single-att .att-left{
+    /* margin: 0px 10px; */
+}
+
+.single-att h2{
+    font-size: 30px;
+}
+
+.single-att p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.single-att img{
+    width:70% ;
+}
+
+/* attraction end */
