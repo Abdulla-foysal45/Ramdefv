@@ -19,6 +19,7 @@ html{
     --white: #ECF0F1;
     --gray-white: #B3B6B7;
     --black:#1c2833d0;
+    --yellow:#F1C40F;
 }
 /* banner-image start */
 .main{
@@ -227,3 +228,43 @@ ul li a:hover {
 }
 
 /* attraction end */
+
+/* footer start */
+
+.footer{
+    background-color:#1C2833 ;
+    padding-top: 50px;
+}
+
+.footer-content h2{
+    color: var(--white);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+
+.footer-content a{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-social i{
+    font-size: 30px;
+    padding: 0px 7px;
+    color: var(--white);
+    transition: all .5s ease-in-out;
+
+}
+
+.footer-social i:hover{
+    color: var(--yellow);
+}
+
+
+.foot-bottom-bar{
+    text-align: center;
+    background-color: #000000;
+    color: var(--white);
+}
+
+/* footer end */
